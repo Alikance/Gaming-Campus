@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
+  margin: 20px;
+}
+nav ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+#language {
+  border: solid black 2px;
+  border-radius: 20px;
+  padding: 6px;
+  background-color: rgb(224, 221, 221);
+}
+.main-header {
+  background: url(./assets/img/bg.jpg) center/cover;
+}
+#logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.main-header H1 {
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  margin: 40px;
+}
+.main-hader button {
+  display: block;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+button {
+  border: solid white 2px;
+  padding: 15px;
+  background: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px;
+  cursor: pointer;
+}
+H3 {
+  text-transform: uppercase;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: white;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 40px;
+  row-gap: 40px;
+}
+.icon-part {
+  background: black;
+  padding: 65px 0;
+  color: white;
+}
+.icon-part-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-icon-part {
+  padding: 40px;
+}
+.list-icon-part H3 img p button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+.news-part {
+  background: rgb(192, 189, 189);
+}
+
+.main-news-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
